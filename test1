@@ -1,0 +1,24 @@
+import random
+
+# generate two random whole numbers between 1 and 100
+num1 = random.randint(1, 100)
+num2 = random.randint(1, 100)
+
+# generate two random float numbers between 0 and 1
+float1 = random.random()
+float2 = random.random()
+
+# perform various mathematical operations on each set of numbers and display the results
+print("Mathematical operations using random whole numbers:")
+print(f"{num1} + {num2} = {num1 + num2}")
+print(f"{num1} - {num2} = {num1 - num2}")
+print(f"{num1} * {num2} = {num1 * num2}")
+print(f"{num1} / {num2} = {num1 / num2}")
+print(f"{num1} % {num2} = {num1 % num2}")
+print(f"{num1} ** {num2} = {num1 ** num2}")
+
+print("\nMathematical operations using random float numbers:")
+print(f"{float1} + {float2} = {float1 + float2}")
+print(f"{float1} - {float2} = {float1 - float2}")
+print(f"{float1} * {float2} = {float1 * float2}")
+print(f"{float1} / {float2} = {float1 / float2}")
